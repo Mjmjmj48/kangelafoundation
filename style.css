@@ -1,0 +1,21 @@
+/* Kangela Foundation — clean, classy, responsive */
+:root{
+  --bg:#0b1f16;
+  --surface:#0f2a1d;
+  --card:#112f22;
+  --text:#eef7f0;
+  --muted:#b8d5c0;
+  --accent:#1fd870;
+  --accent-2:#a3e635;
+  --white:#ffffff;
+  --shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  color:var(--text);
+  background: linear-gradient(140deg,#09170f 0%, #0b2117 60%, #0f2a1d 100%);
+}
+/* ...rest of the CSS as provided earlier... */
